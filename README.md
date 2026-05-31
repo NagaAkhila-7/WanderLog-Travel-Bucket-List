@@ -42,7 +42,7 @@ A React-based travel bucket list application that allows users to explore countr
 1. Clone the repository
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/NagaAkhila-7/WanderLog-Travel-Bucket-List
 ```
 
 2. Install dependencies
