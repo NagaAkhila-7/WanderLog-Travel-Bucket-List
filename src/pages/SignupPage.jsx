@@ -43,17 +43,18 @@ function SignupPage() {
     >
       <div
         style={{
-          width: "350px",
+          width: "380px",
           background: "#fff",
-          padding: "30px",
-          borderRadius: "15px",
+          padding: "35px",
+          borderRadius: "16px",
           boxShadow: "0 4px 20px rgba(0,0,0,0.1)",
         }}
       >
         <h1
           style={{
             textAlign: "center",
-            marginBottom: "25px",
+            marginBottom: "10px",
+            color: "#0f766e",
           }}
         >
           WanderLog
@@ -62,11 +63,27 @@ function SignupPage() {
         <h3
           style={{
             textAlign: "center",
-            marginBottom: "20px",
+            marginBottom: "10px",
           }}
         >
           Create Account
         </h3>
+
+        <p
+          style={{
+            textAlign: "center",
+            color: "#666",
+            fontSize: "14px",
+            marginBottom: "20px",
+            lineHeight: "1.6",
+          }}
+        >
+          Demo Credentials
+          <br />
+          Email: <strong>eve.holt@reqres.in</strong>
+          <br />
+          Password: <strong>cityslicka</strong>
+        </p>
 
         <input
           type="email"
@@ -102,8 +119,8 @@ function SignupPage() {
           <p
             style={{
               color: "red",
-              marginBottom: "10px",
               textAlign: "center",
+              marginBottom: "12px",
             }}
           >
             {error}
@@ -121,6 +138,7 @@ function SignupPage() {
             borderRadius: "8px",
             cursor: "pointer",
             fontSize: "16px",
+            fontWeight: "600",
           }}
         >
           Register
