@@ -1,0 +1,79 @@
+button {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background: #0f766e;
+  color: white;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background: #115e59;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(15, 118, 110, 0.25);
+}
+
+button:active {
+  transform: scale(0.98);
+}
+
+input {
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #d1d5db;
+  outline: none;
+  transition: all 0.3s ease;
+  background: white;
+}
+
+input:focus {
+  border-color: #0f766e;
+  box-shadow: 0 0 8px rgba(15, 118, 110, 0.2);
+}
+
+.country-card {
+  background: #fff;
+  border-radius: 14px;
+  overflow: hidden;
+  cursor: pointer;
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+}
+
+.country-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+}
+
+.country-card img {
+  transition: all 0.3s ease;
+}
+
+.country-card:hover img {
+  transform: scale(1.04);
+}
+
+.country-card h3 {
+  color: #1f2937;
+  margin-bottom: 10px;
+}
+
+.country-card p {
+  color: #6b7280;
+  margin: 6px 0;
+  font-size: 14px;
+}
+
+.country-card strong {
+  color: #111827;
+}
+
+hr {
+  border: none;
+  height: 1px;
+  background: #e5e7eb;
+  margin: 40px 0;
+}
